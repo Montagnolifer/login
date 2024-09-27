@@ -28,7 +28,7 @@
 
                 // Send data to PHP via AJAX
                 $.ajax({
-                    url: '/handlers/login.php',
+                    url: 'login.php',
                     type: 'POST',
                     data: $(this).serialize(),
                     success: function(response) {

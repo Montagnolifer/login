@@ -45,12 +45,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     'photo' => $user['photo'],
                     'whatsapp' => $user['whatsapp'],
                     'nick' => $user['nick'],
-                    'access_token_strava' => $user['access_token_strava'],
-                    'refresh_token_strava' => $user['refresh_token_strava'],
-                    'token_expiration_strava' => $user['token_expiration_strava'],
-                    'username_strava' => $user['username_strava'],
-                    'photo_strava' => $user['photo_strava'],
-                    'activities' => $user['activities'],
                 ];
 
                 echo "success"; // Return success message

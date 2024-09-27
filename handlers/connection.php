@@ -1,5 +1,5 @@
 <?php
-$host = 'localhost'; // Endereço do servidor do banco de dados
+$host = '162.241.2.213'; // Endereço do servidor do banco de dados
 $dbname = 'skipca34_paceplay'; // Nome do banco de dados
 $user = 'skipca34_paceplay'; // Usuário do banco de dados
 $password = '(eM9e_(/e;zVVWn$'; // Senha do banco de dados
